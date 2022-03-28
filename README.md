@@ -16,4 +16,4 @@ In the folder compositional-split-natural, the pairs for training, validation an
 
 Some images are  part of [Visual Genome](https://visualgenome.org/), and can be downloaded from the official website. We use Visual Genome to get more attribute labels. 
 
-Moreover, since VAW is multi-label dataset (each image with object can have multiple labels), we select attributes which are most uncommon in the dataset, to focus on long-tail attributes of VAW dataset. More details on the split are provided in supplementary material. The jupyter-notebook (```vaw_dataset_orig.ipynb''') explains the steps for creation of splits.
+Moreover, since VAW is multi-label dataset (each image with object can have multiple labels), we select attributes which are most uncommon in the dataset, to focus on long-tail attributes of VAW dataset. More details on the split are provided in supplementary material. The jupyter-notebook (```vaw_dataset_orig.ipynb```) explains the steps for creation of splits.

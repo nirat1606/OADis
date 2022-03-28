@@ -11,10 +11,9 @@ This repository provides dataset splits and code for Paper: Disentangling Visual
 # VAW-CZSL Dataset Setup
 
 We provide compositional splits for Generalized CZSL, following prior works:
-To Download the dataset, first download the VAW-dataset from the website: [VAW](https://github.com/adobe-research/vaw_dataset).
-
-In the folder ```compositional-split-natural```, the pairs for training, validation and test are available.
-
-Some images are  part of [Visual Genome](https://visualgenome.org/), and can be downloaded from the official website. We use Visual Genome to get more attribute labels. 
-
-Moreover, since VAW is multi-label dataset (each image with object can have multiple labels), we select attributes which are most uncommon in the dataset, to focus on long-tail attributes of VAW dataset. More details on the split are provided in supplementary material. The jupyter-notebook (```vaw_dataset_orig.ipynb```) explains the steps for creation of splits.
+To Download the dataset, first download pre-requisites:
+1. The VAW-dataset from the website: [VAW](https://github.com/adobe-research/vaw_dataset).
+2. The VAW-CZSL folder: [VAW-CZSL](https://drive.google.com/drive/folders/1CalwDXkkGALxz0e-aCFg9xBmf7Pu4eXL?usp=sharing). This folder has a jupyter notebook ```vaw_dataset_orig.ipynb```, and folder named ```compositional-split-natural```. 
+ - ```compositional-split-natural```: lists attribute-object pairs for each split [training, validation and testing].
+ - ```vaw_dataset_orig.ipynb``` explains the steps for creation of splits, more details can also be found in Supplementary material.
+3. Some images are  part of [Visual Genome](https://visualgenome.org/), and can be downloaded from the official website. We use Visual Genome to get more attribute labels.

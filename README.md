@@ -8,7 +8,7 @@ This repository provides dataset splits and code for Paper: Disentangling Visual
 [Abhinav Shrivastava](http://www.cs.umd.edu/~abhinav/)
  
 
-# VAW-CZSL Dataset Setup
+# VAW-CZSL Dataset 
 
 We provide compositional splits for Generalized CZSL, following prior works:
 The dataset and splits can be downloaded from: [VAW-CZSL](https://drive.google.com/drive/folders/1CalwDXkkGALxz0e-aCFg9xBmf7Pu4eXL?usp=sharing). This folder has a jupyter notebook ```vaw_dataset_orig.ipynb```, and folder named ```compositional-split-natural```.  The folder also has ```metadata``` file which splits image ids for each split.
@@ -19,3 +19,7 @@ The dataset and splits can be downloaded from: [VAW-CZSL](https://drive.google.c
 For building split files and metedata files from scratch, you need
 1. The VAW-dataset from the website: [VAW](https://github.com/adobe-research/vaw_dataset).
 2. Some images are part of [Visual Genome](https://visualgenome.org/), and can be downloaded from the official website. 
+
+
+
+# Code and Models will be released soon

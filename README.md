@@ -1,5 +1,5 @@
 # Disentangling Visual Embeddings for Attributes and Objects (OADis)
-This repository provides dataset splits and code for Paper: Disentangling Visual Embeddings for Attributes and Objects, published at CVPR 2022.
+This repository provides dataset splits and code for Paper:
 ### Disentangling Visual Embeddings for Attributes and Objects, CVPR 2022
 [Nirat Saini](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4kgg1kbcLx0j2dkvo5bGoQb9BU8bNEaEkiOirw72JFqU1cdNGVo3r8KTG7pq0yHTgIZ1M6jqtUUbXRAz_6YPTAeJjMwA&user=VsTvk-8AAAAJ),
 [Khoi Pham](https://scholar.google.com/citations?user=o7hS8EcAAAAJ&hl=en),
@@ -17,8 +17,8 @@ For building split files and metedata files from scratch, you need
 
 
 
-## To run OADis:
-For MIT-States:
+## Code Instructions:
+To run OADis for MIT-States Dataset:
 ```
 Training:
 python train.py --cfg config/mit-states.yml
@@ -34,3 +34,7 @@ The code works well, and is tested for:
 Pytorch - 1.6.0+cu92
 Python - 3.6.12
 tensorboardx - v2.4
+
+
+### For more qualitative results and details, please refer to webpage [Project Page](https://www.cs.umd.edu/~nirat/OADis/)
+Please email at [Nirat](nirat@umd.edu) for questions and concerns.

@@ -1,0 +1,73 @@
+config_name: 'mitstates_train'
+
+DATASET:
+  root_dir: 'path/to/mitstates/'
+  name: 'mitstates'
+  splitname: 'compositional-split-natural'
+
+MODEL:
+  load_checkpoint: False
+
+  img_emb_dim: 2048
+  img_emb_drop: 0.3
+
+  wordembs: 'glove'
+  wordemb_compose: 'obj-conditioned'
+  wordemb_compose_dropout: 0.05
+
+  emb_dim: 300
+
+  lambda_attn: 10.0
+  attn_normalized: True
+
+  classifier: 'cosine'
+  cosine_cls_temp: 0.05
+
+  w_loss_main: 1.0
+
+  use_attr_loss: True
+  w_loss_attr: 0.25
+
+  use_obj_loss: True
+  w_loss_obj: 0.25
+
+  use_emb_pair_loss: True
+  emb_loss_main: 0.05
+
+  use_composed_pair_loss: True
+  unseen_loss_ratio: 0.05
+  seen_loss_ratio: 0.05
+
+TRAIN:
+  log_dir: 'path/to/log_file'
+  checkpoint_dir: '/path/to/checkpoints'
+  num_workers: 4
+  seed: 124
+
+  batch_size: 256
+  test_batch_size: 32
+
+  finetune_backbone: False
+  use_precomputed_features: False
+  comb_features: False
+
+  lr_word_embedding: 2.5e-6
+  lr_encoder: 1e-5  
+  lr: 3e-4
+  wd: 5e-5
+
+  disp_interval: 119
+  save_every_epoch: 1
+  eval_every_epoch: 1
+
+  start_epoch: 1
+  start_epoch_validate: 15
+  max_epoch: 30
+  final_max_epoch: 100
+
+  decay_strategy: 'milestone' 
+  decay_factor: 0.1
+  lr_decay_milestones: [30, 40]
+
+EVAL:
+  topk: 1

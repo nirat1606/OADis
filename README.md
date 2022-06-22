@@ -19,13 +19,13 @@ For building split files and metedata files from scratch, you need
 
 ## To run OADis:
 For MIT-States:
-
+```
 Training:
 python train.py --cfg config/mit-states.yml
 
 Testing:
 python test.py --cfg config/mit-states.yml --load mit_final.pth
-
+```
 Please update location paths for dataset and logs in the mit-states.yml
 
 Similar instructions can be used for other datasets: UT-Zappos and VAW-CZSL.

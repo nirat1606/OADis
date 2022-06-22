@@ -30,10 +30,11 @@ Please update location paths for dataset and logs in the mit-states.yml
 
 Similar instructions can be used for other datasets: UT-Zappos and VAW-CZSL.
 
-The code works well, and is tested for:
+The code works well, and is tested for:```
 Pytorch - 1.6.0+cu92
 Python - 3.6.12
 tensorboardx - v2.4
+```
 
 
 ### For more qualitative results and details, please refer to webpage [Project Page](https://www.cs.umd.edu/~nirat/OADis/)

@@ -37,4 +37,18 @@ tensorboardx - v2.4
 
 
 ### For more qualitative results and details, please refer to webpage [Project Page](https://www.cs.umd.edu/~nirat/OADis/)
-Please email at [Nirat](nirat@umd.edu) for questions and concerns.
+Please email [Nirat](nirat@umd.edu) for questions and concerns.
+
+
+## Citation
+Please cite our CVPR 2022 paper if you use the this repo for OADis.
+```
+@InProceedings{Saini_2022_CVPR,
+    author    = {Saini, Nirat and Pham, Khoi and Shrivastava, Abhinav},
+    title     = {Disentangling Visual Embeddings for Attributes and Objects},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {13658-13667}
+}
+```

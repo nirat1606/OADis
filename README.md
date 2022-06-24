@@ -19,8 +19,8 @@ For building split files and metedata files from scratch, you need
 
 ## Code Instructions:
 Pre-requisites:
-- Update the path for dataset images and log file in the config/\*.yaml files.
-- Download and dump the pre-trained models from: [here](https://drive.google.com/drive/folders/1YekXfRVcuIB-71x_aX_e9_1OgxIVyQtJ?usp=sharing) to a folder named ```saved_models```
+- Update the path for dataset images and log file in the config/\*.yml files.
+- Download and dump the pre-trained models from [here](https://drive.google.com/drive/folders/1YekXfRVcuIB-71x_aX_e9_1OgxIVyQtJ?usp=sharing) to a folder named ```saved_models```
 
 To run OADis for MIT-States Dataset:
 ```

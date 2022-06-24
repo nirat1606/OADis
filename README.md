@@ -18,6 +18,10 @@ For building split files and metedata files from scratch, you need
 
 
 ## Code Instructions:
+Pre-requisites:
+- Update the path for dataset images and log file in the config/\*.yaml files.
+- Download and dump the pre-trained models from: [here](https://drive.google.com/drive/folders/1YekXfRVcuIB-71x_aX_e9_1OgxIVyQtJ?usp=sharing) to a folder named ```saved_models```
+
 To run OADis for MIT-States Dataset:
 ```
 Training:
@@ -26,10 +30,10 @@ python train.py --cfg config/mit-states.yml
 Testing:
 python test.py --cfg config/mit-states.yml --load mit_final.pth
 ```
-
-Please update location paths for dataset and logs in the mit-states.yml
-
 Similar instructions can be used for other datasets: UT-Zappos and VAW-CZSL.
+
+
+
 
 The code works well, and is tested for:
 ```

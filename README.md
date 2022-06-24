@@ -31,10 +31,6 @@ Testing:
 python test.py --cfg config/mit-states.yml --load mit_final.pth
 ```
 Similar instructions can be used for other datasets: UT-Zappos and VAW-CZSL.
-
-
-
-
 The code works well, and is tested for:
 ```
 Pytorch - 1.6.0+cu92
@@ -42,10 +38,8 @@ Python - 3.6.12
 tensorboardx - v2.4
 ```
 
-
-### For more qualitative results and details, please refer to webpage [Project Page](https://www.cs.umd.edu/~nirat/OADis/)
-Please email [Nirat](nirat@umd.edu) for questions and concerns.
-
+### For more qualitative results and details, refer to the [Project Page](https://www.cs.umd.edu/~nirat/OADis/)
+For questions and queries, feel free to reach out to [Nirat](nirat@umd.edu).
 
 ## Citation
 Please cite our CVPR 2022 paper if you use the this repo for OADis.

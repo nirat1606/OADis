@@ -21,6 +21,7 @@ For building split files and metedata files from scratch, you need
 Pre-requisites:
 - Update the path for dataset images and log file in the config/\*.yml files.
 - Download and dump the pre-trained models from [here](https://drive.google.com/drive/folders/1YekXfRVcuIB-71x_aX_e9_1OgxIVyQtJ?usp=sharing) to a folder named ```saved_models```
+- The compositional splits for MIT-states and UT-Zappos can be downloaded from: https://www.senthilpurushwalkam.com/publication/compositional/compositional_split_natural.tar.gz
 
 To run OADis for MIT-States Dataset:
 ```
